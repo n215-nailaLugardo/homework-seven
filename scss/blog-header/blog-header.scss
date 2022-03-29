@@ -1,0 +1,15 @@
+.blog-header {
+    max-width: $site-width;
+    margin: $center;
+    margin-top: 65px;
+    font-size: 30px;
+    font-family: $font-proximaThin;
+    letter-spacing: 3px;
+    position: relative;
+
+    hr {
+        border: 1px solid #000;
+        width: 106px;
+    }
+
+}

@@ -1,0 +1,42 @@
+.blog-visuals {
+    max-width: $site-width;
+    margin: $center;
+    margin-top: 41px;
+    display: flex;
+
+    .blog-date{
+        background-color: $site-blue;
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        color: $site-white;
+        position: relative;
+
+        .blog-date-day {
+            font-size: 22px;
+            font-family: gill sans;
+            font-weight: bold;
+            position: absolute;
+            top: 10px;
+            left: 17px; 
+        }
+
+        .blog-date-month {
+            font-size: 12px; 
+            font-family: gill sans ;
+            position: absolute;
+            top: 35px; 
+            left: 20px;
+        }
+    }
+
+    .blog-img {
+        width: 900px;
+        height: 259px;
+        background-image: url("../images/blog.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        margin-left: 20px;
+    }
+}

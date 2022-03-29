@@ -1,0 +1,57 @@
+.contact-map-form {
+    max-width: $site-width;
+    margin: $center;
+    margin-top: 60px;
+    display: flex;
+    position: relative;
+
+    .contact-map {
+        width: 400px;
+        height: 442px;
+        background-image: url("../images/map.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-color: reds;
+        position: absolute;
+    }
+
+    .contact-form {
+        margin-left: 50px;
+        position: absolute;
+        left: 400px;
+        font-family: gill sans;
+        font-size: 19px;
+
+        .long-box {
+            width: 529px;
+            height: 60px;
+            margin-bottom: 21px;
+            background-color: #F5F5F5;
+            border: 1px solid #F5F5F5;
+            position: relative;
+        }
+
+        .big-box {
+            width: 529px;
+            height: 199px;
+            margin-bottom: 20px;
+            background-color: #F5F5F5;
+            border: 1px solid #F5F5F5;
+        }
+
+        ::placeholder {
+            margin-left: 21px;
+            position: absolute;
+            top: 21px;
+        }
+    }
+
+    button {
+        width: 167px;
+        height: 60px;
+        color: $site-white;
+        background-color: $site-blue;
+        border: 1px solid $site-blue;
+    }
+}

@@ -1,0 +1,15 @@
+.contact-info {
+    max-width: $site-width;
+    margin: $center;
+    position: relative;
+
+    p {
+        position: absolute;
+        top: 470px;
+        font-size: 18px;
+        font-family: gill sans;
+        font-weight: lighter;
+        letter-spacing: 1.8px;
+        color: #000000;
+    }
+}

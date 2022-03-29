@@ -1,0 +1,19 @@
+.blog-txt {
+    max-width: $site-width;
+    margin: $center;
+    margin-top: 20px;
+    margin-bottom: 100px;
+    font-family: gill sans;
+    position: relative;
+    left: 80px;
+
+    .black-txt {
+        font-size: 22px;
+    }
+
+    .blue-txt {
+        color: $site-blue;
+        width: 380px;
+        font-size: 13px;
+    }
+}

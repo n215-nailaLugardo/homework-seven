@@ -1,0 +1,56 @@
+.offer-content {
+    max-width: $site-width;
+    margin: $center;
+    margin-top: 45px;
+    margin-bottom: 60px;
+    display: flex;
+    position: relative;
+
+    .offer-img {
+        height: 287px;
+        width: 199px;
+        background-image: url("../images/special-offer-01.jpg");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    .offer-txt {
+        margin-left: 20px;
+        position: relative;
+
+        .offer-country-header {
+            font-size: 30px;
+            font-family: $font-proximaThin;
+            letter-spacing: 3px;
+        }
+
+        hr {
+            width: 199px;
+            border: 1px solid #000;
+            position: absolute;
+            top: 40px;
+        }
+
+        .offer-country-txt {
+            max-width: 290px;
+            margin-top: 29px;
+            font-family: gill sans;
+            text-align: left;
+            letter-spacing: 1.6px;
+        }
+    }
+
+    button {
+        position: absolute;
+        top: 249px;
+        left: 220px;
+        height: 40px;
+        width: 133px;
+        background-color: $site-blue;
+        border-radius: 20px;
+        border: 1px solid $site-blue;
+        color: $site-white;
+    }
+
+}

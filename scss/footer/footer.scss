@@ -1,0 +1,46 @@
+footer {
+    height: $footer-height;
+    background-color: $site-blue;
+    position: relative;
+    margin: 0 auto;
+    margin-top: 100px;
+
+    p {
+        font-family: gill sans;
+    }
+
+    .footer-content {
+        max-width: $site-width;
+        margin: 0 auto;
+        height: 100%;
+        color: #FFF;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .logo {
+        color: $site-white;
+        display: flex;
+        align-items: flex-end;
+        border: 2px solid $site-white;
+        width: 92px;
+        height: 38px;
+        font-family: gillSans;
+        font-size: 20px;
+        letter-spacing: 2px;
+        white-space: nowrap;
+
+            p {
+            position: absolute;
+            top: 50px;
+            }
+        }
+
+        .icons {
+            i {
+                height: 22px;
+                margin-right: 22px;
+            }
+        }
+    }
+}

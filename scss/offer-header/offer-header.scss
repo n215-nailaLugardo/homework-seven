@@ -1,0 +1,16 @@
+.offer-header {
+    max-width: $site-width;
+    margin: $center;
+    font-size: 30px;
+    font-family: $font-proximaThin;
+    letter-spacing: 3px;
+    margin-top: 65px;
+    position: relative;
+
+    hr {
+        width: 199px;
+        border: 1px solid #000;
+        position: absolute;
+        top: 40px;
+    }
+}
